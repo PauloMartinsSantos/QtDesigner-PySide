@@ -1,3 +1,10 @@
 <RCC>
-  <qresource prefix="icons"/>
+  <qresource prefix="icons">
+    <file>instagram.png</file>
+    <file>o-email.png</file>
+    <file>ps.png</file>
+    <file>youtube.png</file>
+    <file>cardapio.png</file>
+    <file>whatsapp (1).png</file>
+  </qresource>
 </RCC>
