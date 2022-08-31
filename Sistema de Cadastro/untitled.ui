@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>839</width>
-    <height>490</height>
+    <width>821</width>
+    <height>508</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -69,7 +69,7 @@
                <x>0</x>
                <y>0</y>
                <width>160</width>
-               <height>336</height>
+               <height>354</height>
               </rect>
              </property>
              <attribute name="label">
@@ -125,7 +125,7 @@
                <x>0</x>
                <y>0</y>
                <width>160</width>
-               <height>336</height>
+               <height>354</height>
               </rect>
              </property>
              <attribute name="label">
@@ -224,7 +224,7 @@ p, li { white-space: pre-wrap; }
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_5">
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
           <item>
            <widget class="QStackedWidget" name="Pages">
             <property name="currentIndex">
@@ -524,58 +524,36 @@ p, li { white-space: pre-wrap; }
              </layout>
             </widget>
             <widget class="QWidget" name="page_contatos">
-             <widget class="QLabel" name="label_7">
-              <property name="geometry">
-               <rect>
-                <x>130</x>
-                <y>70</y>
-                <width>121</width>
-                <height>21</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>(11) 99123-4567</string>
-              </property>
-             </widget>
-             <widget class="QLabel" name="label_8">
-              <property name="geometry">
-               <rect>
-                <x>130</x>
-                <y>110</y>
-                <width>47</width>
-                <height>14</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-             </widget>
-             <widget class="QLabel" name="label_9">
-              <property name="geometry">
-               <rect>
-                <x>130</x>
-                <y>150</y>
-                <width>47</width>
-                <height>14</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-             </widget>
-             <widget class="QLabel" name="label_10">
-              <property name="geometry">
-               <rect>
-                <x>130</x>
-                <y>190</y>
-                <width>47</width>
-                <height>14</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-             </widget>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/whatsapp (redux).png&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; (11) 99123-4567&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_10">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/o-email.png&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;contato@psservices.com.br&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_9">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/instagram.png&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ps-services&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/youtube.png&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ps-services&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
             </widget>
             <widget class="QWidget" name="page_sobre"/>
            </widget>
