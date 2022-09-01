@@ -1,7 +1,8 @@
 <RCC>
   <qresource prefix="icons">
-    <file>ps.png</file>
+    <file>cardapio.png</file>
     <file>instagram.png</file>
+    <file>ps.png</file>
     <file>o-email.png</file>
     <file>whatsapp (redux).png</file>
     <file>youtube.png</file>
